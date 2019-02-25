@@ -4,9 +4,40 @@
 <head>
     <meta charset="utf-8" />
     <title>codez Academy Project</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
-<h1> Movie Database Explorer</h1>
-<h3>Search and find cool movies</h3>
+<div class="content">
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            Movie Database Explorer
+        </a>
+    </nav>
+
+    <div class="jumbotron">
+        <h1 class="display-4">Movie Database Explorer</h1>
+        <hr class="my-4">
+        <form>
+            <div class="form-group">
+                <label for="movie">
+                    Movie Name
+                </label>
+                <input type="text" class="form-control" id="movie" aria-describedby="movieHelp" placeholder="Search a movie .....">
+                <small id="emailHelp" class="form-text text-muted">
+                    Search for a movie
+                </small>
+            </div>
+        </form>
+        <a class="btn btn-primary btn-lg" href="#" role="button">
+            Learn more
+        </a>
+    </div>
+</div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
